@@ -1,0 +1,46 @@
+.header img {
+  width: 100%;
+  margin-top: -20px;
+}
+
+/* Position the navbar container inside the image */
+.head {
+  position: absolute;
+  width: 50vw;
+  display: inline;
+  margin-top: 130px;
+  right: 20.5cm;
+}
+
+li {
+  float: left;
+  padding: 20px;
+}
+
+/* Navbar links */
+.topnav a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+h4 {
+  display: flex;
+  position: absolute;
+  margin-top: -1.7cm;
+  left: 42.8cm;
+  font-size: 35px;
+}
+
+.topnav a:hover {
+  color: violet;
+}
+
+@media (min-width: 512p) and (max-width: 768px) {
+  .topnav a:hover {
+    background-color: red;
+    color: aqua;
+  }
+}

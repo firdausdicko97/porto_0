@@ -1,0 +1,60 @@
+.body {
+  margin-left: -40px;
+  margin-top: -610px;
+}
+
+.content {
+  position: relative;
+  display: block;
+  margin-left: 500px;
+  margin-top: -450px;
+}
+
+.container img {
+  width: 680px;
+  height: 750px;
+}
+
+.title {
+  font-size: 25px;
+}
+.subtitle {
+  margin-left: 40px;
+  font-size: 40px;
+}
+
+.word {
+  font-size: 30px;
+  margin-left: 42px;
+}
+
+li {
+  padding: 8px;
+}
+
+.social img {
+  width: 40px;
+  height: 40px;
+  display: block;
+}
+
+.switch {
+  display: block;
+}
+/*  */
+
+.knowledge {
+  display: block;
+  font-size: 40px;
+  margin-top: 150px;
+  margin-left: 500px;
+}
+
+.knimg ul {
+  margin-left: -275px;
+}
+.knimg img {
+  width: 100px;
+  height: 40px;
+  display: block;
+}
