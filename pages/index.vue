@@ -79,6 +79,13 @@
           </div>
         </div>
         <!-- ============================== -->
+        <div class="timeline">
+          <div class="tltitle">
+            <strong>timeline</strong>
+          </div>
+          <div class="tlcontent"></div>
+        </div>
+        <!-- ============================== -->
         <div class="knowledge">
           <div class="kntitle">
             <strong>Area of knowledge</strong>

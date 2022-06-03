@@ -1,15 +1,15 @@
 .body {
-  margin-left: -40px;
   margin-top: -610px;
 }
 
 .content {
-  position: relative;
-  display: block;
   margin-left: 500px;
   margin-top: -450px;
 }
 
+.knimg ul {
+  padding-left: 0px;
+}
 .container img {
   width: 680px;
   height: 750px;
@@ -47,14 +47,29 @@ li {
   display: block;
   font-size: 40px;
   margin-top: 150px;
-  margin-left: 500px;
 }
 
-.knimg ul {
-  margin-left: -275px;
-}
 .knimg img {
   width: 100px;
   height: 40px;
-  display: block;
+}
+
+.timeline {
+  margin-top: 150px;
+}
+
+.tltitle {
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+}
+
+.kntitle {
+  display: flex;
+  justify-content: center;
+}
+
+.knimg {
+  display: flex;
+  justify-content: center;
 }
