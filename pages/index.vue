@@ -3,85 +3,108 @@
     <Navbar />
     <div class="body">
       <div class="container">
-        <img src="~/assets/img/ilus1.svg" width="400px" />
         <div class="content">
-          <div class="title">My name is</div>
-          <div class="subtitle">
-            <strong> Firdaus Dicko </strong>
-          </div>
-          <div class="word">
-            I’m a Product Owner and Machine Learning <br />
-            enthusiast, loves to learn web development <br />and web design,
-            eager to learn new things
-          </div>
-          <div class="social">
-            <ul style="list-style-type: none">
-              <li>
-                <a href="">
-                  <button type="button" style="border: none; background: none">
-                    <img src="~/assets/img/discord.png" alt="" />
-                  </button>
-                </a>
-              </li>
-              <!-- ===================================================================== -->
-              <li>
-                <a
-                  href="https://www.instagram.com/firdausdicko"
-                  target="_blank"
-                >
-                  <button type="button" style="border: none; background: none">
-                    <img src="~/assets/img/instagram.png" alt="" />
-                  </button>
-                </a>
-              </li>
-              <!-- ===================================================================== -->
-              <li>
-                <a
-                  href="https://www.github.com/firdausdicko97 "
-                  target="_blank"
-                >
-                  <button type="button" style="border: none; background: none">
-                    <img src="~/assets/img/github.png" alt="" />
-                  </button>
-                </a>
-              </li>
-              <!-- ===================================================================== -->
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/firdaus-dicko-648517141/"
-                  target="_blank"
-                >
-                  <button type="button" style="border: none; background: none">
-                    <img src="~/assets/img/linkedin.png" alt="" />
-                  </button>
-                </a>
-              </li>
-              <!-- ===================================================================== -->
-              <li>
-                <a
-                  href="https://steamcommunity.com/id/zkael97/"
-                  target="_blank"
-                >
-                  <button type="button" style="border: none; background: none">
-                    <img src="~/assets/img/steam.png" alt="" />
-                  </button>
-                </a>
-              </li>
-              <!-- ===================================================================== -->
-              <li>
-                <a href="https://www.twitter.com/firdausdicko_" target="_blank">
-                  <button type="button" style="border: none; background: none">
-                    <img src="~/assets/img/twitter.png" alt="" />
-                  </button>
-                </a>
-              </li>
-            </ul>
+          <img src="~/assets/img/ilus1.svg" width="400px" />
+          <div class="profile">
+            <div class="title">My name is</div>
+            <div class="subtitle">
+              <strong> Firdaus Dicko </strong>
+            </div>
+            <div class="word">
+              I’m a Product Owner and Machine Learning <br />
+              enthusiast, loves to learn web development <br />and web design,
+              eager to learn new things
+            </div>
+            <div class="social">
+              <ul style="list-style-type: none">
+                <li>
+                  <a href="">
+                    <button
+                      type="button"
+                      style="border: none; background: none"
+                    >
+                      <img src="~/assets/img/discord.png" alt="" />
+                    </button>
+                  </a>
+                </li>
+                <!-- ===================================================================== -->
+                <li>
+                  <a
+                    href="https://www.instagram.com/firdausdicko"
+                    target="_blank"
+                  >
+                    <button
+                      type="button"
+                      style="border: none; background: none"
+                    >
+                      <img src="~/assets/img/instagram.png" alt="" />
+                    </button>
+                  </a>
+                </li>
+                <!-- ===================================================================== -->
+                <li>
+                  <a
+                    href="https://www.github.com/firdausdicko97 "
+                    target="_blank"
+                  >
+                    <button
+                      type="button"
+                      style="border: none; background: none"
+                    >
+                      <img src="~/assets/img/github.png" alt="" />
+                    </button>
+                  </a>
+                </li>
+                <!-- ===================================================================== -->
+                <li>
+                  <a
+                    href="https://www.linkedin.com/in/firdaus-dicko-648517141/"
+                    target="_blank"
+                  >
+                    <button
+                      type="button"
+                      style="border: none; background: none"
+                    >
+                      <img src="~/assets/img/linkedin.png" alt="" />
+                    </button>
+                  </a>
+                </li>
+                <!-- ===================================================================== -->
+                <li>
+                  <a
+                    href="https://steamcommunity.com/id/zkael97/"
+                    target="_blank"
+                  >
+                    <button
+                      type="button"
+                      style="border: none; background: none"
+                    >
+                      <img src="~/assets/img/steam.png" alt="" />
+                    </button>
+                  </a>
+                </li>
+                <!-- ===================================================================== -->
+                <li>
+                  <a
+                    href="https://www.twitter.com/firdausdicko_"
+                    target="_blank"
+                  >
+                    <button
+                      type="button"
+                      style="border: none; background: none"
+                    >
+                      <img src="~/assets/img/twitter.png" alt="" />
+                    </button>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
         <!-- ============================== -->
         <div class="timeline">
           <div class="tltitle">
-            <strong>timeline</strong>
+            <strong>About Me</strong>
           </div>
           <div class="tlcontent"></div>
         </div>
