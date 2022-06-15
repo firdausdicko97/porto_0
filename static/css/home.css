@@ -1,77 +1,203 @@
-.body {
-  margin: 0px;
-  padding: 0px;
-}
-
-.content {
-  display: flex;
-  flex-wrap: wrap;
+body {
+  font-family: sans-serif;
 }
 
 .profile {
+  position: absolute;
+  top: 450px;
+  display: flex;
 }
-
-.knimg ul {
-  padding-left: 0px;
-}
-.container img {
+.profile_img img {
   width: 680px;
   height: 750px;
 }
 
-.title {
+.profile .profile_img {
+  width: 400px;
+  margin-top: -280px;
+}
+
+.profile .content {
+  padding-left: 90px;
+  padding-top: 50px;
+}
+
+.content h5 {
+  font-family: "Indie Flower";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+  display: flex;
+  align-items: flex-end;
+  text-align: right;
+  letter-spacing: 0.01em;
+
+  color: #000000;
+}
+.content h1 {
+  padding-left: 35px;
+}
+
+.content p {
   font-size: 25px;
-}
-.subtitle {
-  margin-left: 40px;
-  font-size: 40px;
+  padding-left: 35px;
 }
 
-.word {
-  font-size: 30px;
-  margin-left: 42px;
+.social {
+  display: flex;
+  flex-direction: row;
+  padding-left: 35px;
 }
 
-li {
-  padding: 8px;
-}
-
-.social img {
+.icon img {
   width: 40px;
   height: 40px;
-  display: block;
 }
 
-.switch {
-  display: block;
-}
-/*  */
-
-.knowledge {
-  display: block;
-  font-size: 40px;
-  margin-top: 150px;
+.social .icon {
+  padding-right: 10px;
 }
 
-.knimg img {
-  width: 100px;
-  height: 40px;
+/* PEMISAH  */
+
+.tl {
+  margin-top: 35%;
 }
 
 .timeline {
-  margin-top: 150px;
+  margin-top: 20px;
+  position: relative;
+  color: #74cae3;
 }
 
-.tltitle {
-  font-size: 40px;
+.timeline:before {
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 100%;
+  background: #212529;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a9196', endColorstr='#62696d',GradientType=1 );
+  left: 14px;
+  top: 5px;
+  border-radius: 4px;
 }
 
-.kntitle {
-  display: flex;
-  justify-content: center;
+.timeline-month {
+  position: relative;
+  padding: 4px 15px 4px 35px;
+  background-color: #444950;
+  display: inline-block;
+  width: auto;
+  border-radius: 40px;
+  border: 1px solid #17191b;
+  border-right-color: black;
+  margin-bottom: 30px;
 }
 
-.knimg {
-  display: flex;
-  justify-content: center;
+.timeline-month:before {
+  position: absolute;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #74cae3;
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a9196', endColorstr='#70787d',GradientType=0 );
+  border-radius: 100%;
+  border: 1px solid #17191b;
+  left: 5px;
+}
+
+.timeline-section {
+  padding-left: 35px;
+  display: block;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.timeline-date {
+  margin-bottom: 15px;
+  padding: 2px 15px;
+  background: #6e5de7;
+  position: relative;
+  display: inline-block;
+  border-radius: 20px;
+  border: 1px solid #17191b;
+  color: #ffff;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+.timeline-section:before {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 1px;
+  background-color: #444950;
+  top: 12px;
+  left: 20px;
+}
+
+.timeline-section:after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #74cae3;
+  top: 7px;
+  left: 11px;
+  border: 1px solid #17191b;
+  border-radius: 100%;
+}
+
+.timeline-section .col-sm-4 {
+  margin-bottom: 15px;
+}
+
+.timeline-box {
+  position: relative;
+
+  background-color: #444950;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: 1px solid #17191b;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.box-icon {
+  position: absolute;
+  right: 5px;
+  top: 0px;
+}
+
+.box-title {
+  padding: 5px 15px;
+  border-bottom: 1px solid #17191b;
+}
+
+.box-title i {
+  margin-right: 5px;
+}
+
+.box-content {
+  padding: 5px 15px;
+  background-color: #17191b;
+}
+
+.box-content strong {
+  color: #666;
+  font-style: italic;
+  margin-right: 5px;
+}
+
+.box-item {
+  margin-bottom: 5px;
+}
+
+.box-footer {
+  padding: 5px 15px;
+  border-top: 1px solid #17191b;
+  background-color: #444950;
+  text-align: right;
+  font-style: italic;
 }

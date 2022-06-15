@@ -9,7 +9,9 @@
           <li><a href="#contact">Knowledege</a></li>
           <li><a href="#about">Contact Me</a></li>
         </ul>
-        <h4>My <br />Porto</h4>
+        <h4>
+          <strong>My <br />Porto</strong>
+        </h4>
       </div>
     </div>
   </div>
@@ -23,4 +25,5 @@ export default {
 
 <style scoped>
 @import "~/static/css/header.css";
+@import url("https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200&display=swap");
 </style>
