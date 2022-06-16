@@ -60,15 +60,30 @@ body {
 }
 
 /* PEMISAH  */
-
 .tl {
+  display: flex;
+  justify-content: space-between;
+}
+
+.education {
   margin-top: 35%;
+  display: block;
+}
+
+.experience {
+  margin-top: 35%;
+  display: block;
+}
+
+.tl .education {
+  display: block;
+  flex: 0 500px 550px;
 }
 
 .timeline {
   margin-top: 20px;
   position: relative;
-  color: #74cae3;
+  color: #ffff;
 }
 
 .timeline:before {
@@ -86,7 +101,8 @@ body {
 .timeline-month {
   position: relative;
   padding: 4px 15px 4px 35px;
-  background-color: #444950;
+  background-color: #0b0f15;
+  color: #ffff;
   display: inline-block;
   width: auto;
   border-radius: 40px;
@@ -100,7 +116,7 @@ body {
   content: "";
   width: 20px;
   height: 20px;
-  background: #74cae3;
+  background: #1c1c84;
 
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a9196', endColorstr='#70787d',GradientType=0 );
   border-radius: 100%;
@@ -118,7 +134,7 @@ body {
 .timeline-date {
   margin-bottom: 15px;
   padding: 2px 15px;
-  background: #6e5de7;
+  background: #212529;
   position: relative;
   display: inline-block;
   border-radius: 20px;
@@ -141,7 +157,7 @@ body {
   position: absolute;
   width: 10px;
   height: 10px;
-  background: #74cae3;
+  background: #1c1c84;
   top: 7px;
   left: 11px;
   border: 1px solid #17191b;
@@ -191,6 +207,7 @@ body {
 }
 
 .box-item {
+  display: flex;
   margin-bottom: 5px;
 }
 

@@ -63,92 +63,123 @@
         </div>
         <!--START OF TIMELINE DIV  -->
         <div class="tl">
-          <div class="timeline">
-            <div class="timeline-month">Education</div>
-            <div class="timeline-section">
-              <div class="timeline-date">21, Tuesday</div>
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="timeline-box">
-                    <div class="box-title">
-                      <i
-                        class="fa fa-asterisk text-success"
-                        aria-hidden="true"
-                      ></i>
-                      Job Created
+          <div class="education">
+            <div class="timeline">
+              <div class="timeline-month">Education</div>
+              <div class="timeline-section">
+                <div class="timeline-date">2014 - 2017</div>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="timeline-box">
+                      <div class="box-title">
+                        <i
+                          class="fa fa-tasks text-success"
+                          aria-hidden="true"
+                        ></i>
+                        SMAN 8 Bekasi
+                      </div>
+                      <div class="box-content">
+                        <div class="box-item">
+                          <strong>Major</strong>: Science
+                        </div>
+                        <div class="box-item">
+                          <strong>Activity</strong>:
+                          <li>1</li>
+                          <li>2</li>
+                        </div>
+                      </div>
+                      <div class="box-footer">- Carol</div>
                     </div>
-                    <div class="box-content">
-                      <a class="btn btn-xs btn-default pull-right">Details</a>
-                      <div class="box-item">
-                        <strong>Loss Type</strong>: A/C Leak
+                  </div>
+                </div>
+              </div>
+              <div class="timeline-section">
+                <div class="timeline-date">2017 - 2021</div>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="timeline-box">
+                      <div class="box-title">
+                        <i
+                          class="fa fa-tasks text-success"
+                          aria-hidden="true"
+                        ></i>
+                        Institut Teknologi Bandung
                       </div>
-                      <div class="box-item">
-                        <strong>Loss Territory</strong>: Texas
+                      <div class="box-content">
+                        <div class="box-item">
+                          <strong>Major</strong>: Mechanical Engineering
+                        </div>
+                        <div class="box-item">
+                          <strong>Activity</strong>: Lorem ipsum dolor sit amet,
+                          consectetur adipiscing elit. Nullam nisi nulla,
+                          viverra quis felis sit amet, lacinia feugiat odio.
+                          Aliquam sed orci elementum, volutpat dolor eget,
+                          venenatis nunc
+                        </div>
                       </div>
-                      <div class="box-item">
-                        <strong>Start Date</strong>: 08/22/2018
-                      </div>
+                      <div class="box-footer">- Carol</div>
                     </div>
-                    <div class="box-footer">- Tyler</div>
                   </div>
                 </div>
               </div>
             </div>
-
-            <div class="timeline-section">
-              <div class="timeline-date">22, Wednesday</div>
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="timeline-box">
-                    <div class="box-title">
-                      <i class="fa fa-pencil text-info" aria-hidden="true"></i>
-                      Job Edited
+          </div>
+          <div class="experience">
+            <div class="timeline">
+              <div class="timeline-month">Education</div>
+              <div class="timeline-section">
+                <div class="timeline-date">2014 - 2017</div>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="timeline-box">
+                      <div class="box-title">
+                        <i
+                          class="fa fa-tasks text-success"
+                          aria-hidden="true"
+                        ></i>
+                        SMAN 8 Bekasi
+                      </div>
+                      <div class="box-content">
+                        <div class="box-item">
+                          <strong>Major</strong>: Science
+                        </div>
+                        <div class="box-item">
+                          <strong>Activity</strong>:
+                          <li>1</li>
+                          <li>2</li>
+                        </div>
+                      </div>
+                      <div class="box-footer">- Carol</div>
                     </div>
-                    <div class="box-content">
-                      <a class="btn btn-xs btn-default pull-right">Details</a>
-                      <div class="box-item">
-                        <strong>Extraction Type</strong>: Carpet Heavy
-                      </div>
-                      <div class="box-item">
-                        <strong>Water Category</strong>: 4
-                      </div>
-                      <div class="box-item">
-                        <strong>No. Of Tech</strong>: 6
-                      </div>
-                      <div class="box-item">
-                        <strong>Est. Complation</strong>: 09/01/2018
-                      </div>
-                    </div>
-                    <div class="box-footer">- Carol</div>
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="timeline-section">
-              <div class="timeline-date">23, Thursday</div>
-              <div class="row">
-                <div class="col-sm-4">
-                  <div class="timeline-box">
-                    <div class="box-title">
-                      <i
-                        class="fa fa-tasks text-success"
-                        aria-hidden="true"
-                      ></i>
-                      Job To Do Completed
-                    </div>
-                    <div class="box-content">
-                      <a class="btn btn-xs btn-default pull-right">Details</a>
-                      <div class="box-item"><strong>Employee</strong>: Sam</div>
-                      <div class="box-item">
-                        <strong>Employee Response</strong>: Lorem ipsum dolor
-                        sit amet, consectetur adipiscing elit. Nullam nisi
-                        nulla, viverra quis felis sit amet, lacinia feugiat
-                        odio. Aliquam sed orci elementum, volutpat dolor eget,
-                        venenatis nunc
+              <div class="timeline-section">
+                <div class="timeline-date">2017 - 2021</div>
+                <div class="row">
+                  <div class="col-sm-4">
+                    <div class="timeline-box">
+                      <div class="box-title">
+                        <i
+                          class="fa fa-tasks text-success"
+                          aria-hidden="true"
+                        ></i>
+                        Institut Teknologi Bandung
                       </div>
+                      <div class="box-content">
+                        <div class="box-item">
+                          <strong>Major</strong>: Mechanical Engineering
+                        </div>
+                        <div class="box-item">
+                          <strong>Activity</strong>: Lorem ipsum dolor sit amet,
+                          consectetur adipiscing elit. Nullam nisi nulla,
+                          viverra quis felis sit amet, lacinia feugiat odio.
+                          Aliquam sed orci elementum, volutpat dolor eget,
+                          venenatis nunc
+                        </div>
+                      </div>
+                      <div class="box-footer">- Carol</div>
                     </div>
-                    <div class="box-footer">- Carol</div>
                   </div>
                 </div>
               </div>
