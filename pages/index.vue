@@ -63,7 +63,7 @@
         </div>
         <!--START OF TIMELINE DIV  -->
         <section>
-          <h1>timeline</h1>
+          <h1 style="text-align: center; padding-bottom: 70px;">timeline</h1>
           <div class="tl">
             <div class="education">
               <div class="timeline">
@@ -95,7 +95,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="box-footer">- Carol</div>
+                      <div class="box-footer"></div>
                     </div>
                   </div>
                 </div>
@@ -127,7 +127,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="box-footer">- Carol</div>
+                      <div class="box-footer"></div>
                     </div>
                   </div>
                 </div>
@@ -136,9 +136,9 @@
             <div class="experience">
               <div class="timeline">
                 <div class="timeline-month">Experience</div>
-                <div class="timeline-section">
-                  <div class="timeline-date">2014 - 2017</div>
-
+                <!-- aslab -->
+                <div class="timeline-section"> 
+                  <div class="timeline-date">2019 - Present</div>
                   <div class="col-sm-4">
                     <div class="timeline-box">
                       <div class="box-title">
@@ -146,15 +146,15 @@
                           class="fa fa-tasks text-success"
                           aria-hidden="true"
                         ></i>
-                        SMAN 8 Bekasi
+                        Informatics Engineering Laboratory Assistant
                       </div>
                       <div class="box-content">
                         <div class="box-item">
-                          <strong>Major</strong>
-                          <div style="text-indent: 14px">: Science</div>
+                          <strong>Position</strong>
+                          <div style="text-indent: 5px">: Tutor</div>
                         </div>
                         <div class="box-item">
-                          <strong>Activity</strong>:
+                          <strong >Job Desk</strong>:
                           <div class="act">
                             <li>
                               14/15 - Art and Culture Division Member<br />
@@ -164,12 +164,13 @@
                           </div>
                         </div>
                       </div>
-                      <div class="box-footer">- Carol</div>
+                      <div class="box-footer"></div>
                     </div>
                   </div>
                 </div>
-                <div class="timeline-section">
-                  <div class="timeline-date">2017 - 2021</div>
+                <!-- SRA -->
+                 <div class="timeline-section">
+                  <div class="timeline-date">July 2021 - December 2021</div>
                   <div class="col-sm-4">
                     <div class="timeline-box">
                       <div class="box-title">
@@ -177,21 +178,60 @@
                           class="fa fa-tasks text-success"
                           aria-hidden="true"
                         ></i>
-                        Institut Teknologi Bandung
+                        Pt. Sinergi Rezeki Ananta
                       </div>
                       <div class="box-content">
                         <div class="box-item">
-                          <strong>Major</strong>: Mechanical Engineering
+                          <strong>Position</strong>
+                          <div style="text-indent: 5px">: Product Manager</div>
                         </div>
                         <div class="box-item">
-                          <strong>Activity</strong>: Lorem ipsum dolor sit amet,
-                          consectetur adipiscing elit. Nullam nisi nulla,
-                          viverra quis felis sit amet, lacinia feugiat odio.
-                          Aliquam sed orci elementum, volutpat dolor eget,
-                          venenatis nunc
+                          <strong >Job Desk</strong>:
+                          <div class="act">
+                            <li>
+                              Choose features and update priority to develop<br />
+                            </li>
+                            <li>Design mockup and user flow</li>
+                            <li>Lead sprint for developer</li>
+                            <li>Consult and communicate with other division</li>
+                          </div>
                         </div>
                       </div>
-                      <div class="box-footer">- Carol</div>
+                      <div class="box-footer"></div>
+                    </div>
+                  </div>
+                </div>
+                <!-- KUNCI COIN -->
+                 <div class="timeline-section">
+                  <div class="timeline-date">December 2021 - Present</div>
+                  <div class="col-sm-4">
+                    <div class="timeline-box">
+                      <div class="box-title">
+                        <i
+                          class="fa fa-tasks text-success"
+                          aria-hidden="true"
+                        ></i>
+                        Kunci Coin
+                      </div>
+                      <div class="box-content">
+                        <div class="box-item">
+                          <strong>Position</strong>
+                          <div style="text-indent: 5px">: Junior Product Owner</div>
+                        </div>
+                        <div class="box-item">
+                          <strong >Job Desk</strong>:
+                          <div class="act">
+                            <li>Design User Flow and Use Case Diagram</li>
+                            <li>Create BRD and PRD</li>
+                            <li>
+                              Choose features and update priority to develop<br />
+                            </li>
+                            <li>Lead sprint for developer</li>
+                            <li>Consult and communicate with other teams</li>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="box-footer"></div>
                     </div>
                   </div>
                 </div>
@@ -199,8 +239,30 @@
             </div>
           </div>
         </section>
-
         <!-- END OF TIMELINE -->
+        <section class="skill">
+          <h1 style="text-align: center; padding-top: 70px; padding-bottom: 20px;">skill</h1>
+          <div class="icon">
+
+              <img src="~/assets/img/css.svg" alt="" />
+
+
+              <img src="~/assets/img/figma.svg" alt="" />
+
+
+              <img src="~/assets/img/html.svg" alt="" />
+
+
+              <img src="~/assets/img/ml.svg" alt="" />
+
+
+              <img src="~/assets/img/php.svg" alt="" />
+
+              <img src="~/assets/img/python.svg" alt="" />
+
+              <img src="~/assets/img/sql.svg" alt="" />
+          </div>
+        </section>
       </div>
     </div>
   </div>

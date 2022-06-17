@@ -3,8 +3,6 @@ body {
 }
 
 .profile {
-  /* position: absolute; */
-  top: 450px;
   display: flex;
 }
 .profile_img img {
@@ -50,13 +48,14 @@ body {
   padding-left: 35px;
 }
 
-.icon img {
-  width: 40px;
-  height: 40px;
+.social .icon {
+  display: flex;
+  padding-right: 10px;
 }
 
-.social .icon {
-  padding-right: 10px;
+.social .icon img{
+  width: 40px;
+  height: 40px;
 }
 
 /* PEMISAH  */
@@ -80,9 +79,6 @@ body {
   flex: 0 500px 550px;
 }
 
-.tl h1 {
-  /* height: 50%; */
-}
 .timeline {
   margin-top: 20px;
   position: relative;
@@ -212,10 +208,11 @@ body {
 .box-item {
   display: flex;
   margin-bottom: 5px;
+  flex-wrap: wrap;
 }
 
 .box-footer {
-  padding: 5px 15px;
+  padding: 15px;
   border-top: 1px solid #17191b;
   background-color: #444950;
   text-align: right;
@@ -233,4 +230,15 @@ body {
 .act li {
   float: left;
   padding: 0px;
+}
+
+.icon img{
+  height: 45px;
+  width: 100px;
+}
+
+.skill .icon{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
 }

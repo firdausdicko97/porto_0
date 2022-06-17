@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@babel/preset-env": "^7.12.13",
     "core-js": "^3.19.3",
     "jquery": "^3.6.0",
     "nuxt": "^2.13.3",

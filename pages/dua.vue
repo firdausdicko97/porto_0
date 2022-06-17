@@ -71,25 +71,5 @@ export default {
 @import "~/static/css/dua.css";
 </style>
 
-<!-- <div class="icon">
-              <img src="~/assets/img/css.svg" alt="" />
-            </div> -->
-<!-- <div class="icon">
-              <img src="~/assets/img/figma.svg" alt="" />
-            </div> -->
-<!-- <div class="icon">
-              <img src="~/assets/img/html.svg" alt="" />
-            </div> -->
-<!-- <div class="icon">
-              <img src="~/assets/img/ml.svg" alt="" />
-            </div>
-            <div class="icon">
-              <img src="~/assets/img/php.svg" alt="" />
-            </div>
-            <div class="icon">
-              <img src="~/assets/img/python.svg" alt="" />
-            </div>
-            <div class="icon">
-              <img src="~/assets/img/sql.svg" alt="" />
-            </div>
+
 
