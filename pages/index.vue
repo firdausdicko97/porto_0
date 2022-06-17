@@ -62,13 +62,15 @@
           <!-- END OF CONTENT DIV -->
         </div>
         <!--START OF TIMELINE DIV  -->
-        <div class="tl">
-          <div class="education">
-            <div class="timeline">
-              <div class="timeline-month">Education</div>
-              <div class="timeline-section">
-                <div class="timeline-date">2014 - 2017</div>
-                <div class="row">
+        <section>
+          <h1>timeline</h1>
+          <div class="tl">
+            <div class="education">
+              <div class="timeline">
+                <div class="timeline-month">Education</div>
+                <div class="timeline-section">
+                  <div class="timeline-date">2014 - 2017</div>
+
                   <div class="col-sm-4">
                     <div class="timeline-box">
                       <div class="box-title">
@@ -80,12 +82,49 @@
                       </div>
                       <div class="box-content">
                         <div class="box-item">
-                          <strong>Major</strong>: Science
+                          <strong>Major</strong>
+                          <div style="text-indent: 14px">: Science</div>
                         </div>
                         <div class="box-item">
                           <strong>Activity</strong>:
-                          <li>1</li>
-                          <li>2</li>
+                          <div class="act">
+                            <li>
+                              14/15 - Art and Culture Division Member<br />
+                            </li>
+                            <li>15/16 - Head of Religious Division</li>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="box-footer">- Carol</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline-section">
+                  <div class="timeline-date">2017 - 2021</div>
+                  <div class="col-sm-4">
+                    <div class="timeline-box">
+                      <div class="box-title">
+                        <i
+                          class="fa fa-tasks text-success"
+                          aria-hidden="true"
+                        ></i>
+                        Institut Teknologi Bandung
+                      </div>
+                      <div class="box-content">
+                        <div class="box-item">
+                          <strong>Major</strong>
+                          <div style="text-indent: 14px">
+                            : Mechanical Engineering
+                          </div>
+                        </div>
+                        <div class="box-item">
+                          <strong>Activity</strong>:
+                          <div class="act">
+                            <li>
+                              Informatics Engineering Laboratory Assistant<br />
+                            </li>
+                            <li>Karate Gunadarma Member</li>
+                          </div>
                         </div>
                       </div>
                       <div class="box-footer">- Carol</div>
@@ -93,9 +132,44 @@
                   </div>
                 </div>
               </div>
-              <div class="timeline-section">
-                <div class="timeline-date">2017 - 2021</div>
-                <div class="row">
+            </div>
+            <div class="experience">
+              <div class="timeline">
+                <div class="timeline-month">Experience</div>
+                <div class="timeline-section">
+                  <div class="timeline-date">2014 - 2017</div>
+
+                  <div class="col-sm-4">
+                    <div class="timeline-box">
+                      <div class="box-title">
+                        <i
+                          class="fa fa-tasks text-success"
+                          aria-hidden="true"
+                        ></i>
+                        SMAN 8 Bekasi
+                      </div>
+                      <div class="box-content">
+                        <div class="box-item">
+                          <strong>Major</strong>
+                          <div style="text-indent: 14px">: Science</div>
+                        </div>
+                        <div class="box-item">
+                          <strong>Activity</strong>:
+                          <div class="act">
+                            <li>
+                              14/15 - Art and Culture Division Member<br />
+                            </li>
+
+                            <li>15/16 - Head of Religious Division</li>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="box-footer">- Carol</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="timeline-section">
+                  <div class="timeline-date">2017 - 2021</div>
                   <div class="col-sm-4">
                     <div class="timeline-box">
                       <div class="box-title">
@@ -124,68 +198,8 @@
               </div>
             </div>
           </div>
-          <div class="experience">
-            <div class="timeline">
-              <div class="timeline-month">Education</div>
-              <div class="timeline-section">
-                <div class="timeline-date">2014 - 2017</div>
-                <div class="row">
-                  <div class="col-sm-4">
-                    <div class="timeline-box">
-                      <div class="box-title">
-                        <i
-                          class="fa fa-tasks text-success"
-                          aria-hidden="true"
-                        ></i>
-                        SMAN 8 Bekasi
-                      </div>
-                      <div class="box-content">
-                        <div class="box-item">
-                          <strong>Major</strong>: Science
-                        </div>
-                        <div class="box-item">
-                          <strong>Activity</strong>:
-                          <li>1</li>
-                          <li>2</li>
-                        </div>
-                      </div>
-                      <div class="box-footer">- Carol</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="timeline-section">
-                <div class="timeline-date">2017 - 2021</div>
-                <div class="row">
-                  <div class="col-sm-4">
-                    <div class="timeline-box">
-                      <div class="box-title">
-                        <i
-                          class="fa fa-tasks text-success"
-                          aria-hidden="true"
-                        ></i>
-                        Institut Teknologi Bandung
-                      </div>
-                      <div class="box-content">
-                        <div class="box-item">
-                          <strong>Major</strong>: Mechanical Engineering
-                        </div>
-                        <div class="box-item">
-                          <strong>Activity</strong>: Lorem ipsum dolor sit amet,
-                          consectetur adipiscing elit. Nullam nisi nulla,
-                          viverra quis felis sit amet, lacinia feugiat odio.
-                          Aliquam sed orci elementum, volutpat dolor eget,
-                          venenatis nunc
-                        </div>
-                      </div>
-                      <div class="box-footer">- Carol</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        </section>
+
         <!-- END OF TIMELINE -->
       </div>
     </div>

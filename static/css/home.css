@@ -3,7 +3,7 @@ body {
 }
 
 .profile {
-  position: absolute;
+  /* position: absolute; */
   top: 450px;
   display: flex;
 }
@@ -62,16 +62,16 @@ body {
 /* PEMISAH  */
 .tl {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .education {
-  margin-top: 35%;
+  /* margin-top: 35%; */
   display: block;
 }
 
 .experience {
-  margin-top: 35%;
+  /* margin-top: 35%; */
   display: block;
 }
 
@@ -80,6 +80,9 @@ body {
   flex: 0 500px 550px;
 }
 
+.tl h1 {
+  /* height: 50%; */
+}
 .timeline {
   margin-top: 20px;
   position: relative;
@@ -217,4 +220,17 @@ body {
   background-color: #444950;
   text-align: right;
   font-style: italic;
+}
+
+.col-sm-4 {
+  width: 450px;
+}
+
+.box-item .act {
+  padding-left: 10px;
+}
+
+.act li {
+  float: left;
+  padding: 0px;
 }
